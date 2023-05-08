@@ -1,0 +1,10 @@
+.customShadow {
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+}
+
+.searchBar{
+    background: #030229;
+border: 1px solid #605BFE;
+border-radius: 8px;
+}
