@@ -17,6 +17,12 @@ body{
 border-radius: 15px;
 }
 
+.boost{
+    background: #FFFFFF;
+box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+}
+
 .searchBar{
     background: #030229;
 border: 1px solid #605BFE;
