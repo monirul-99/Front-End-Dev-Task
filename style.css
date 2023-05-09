@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-font{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-font-light{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 .customShadow {
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.06);
 border-radius: 15px;
@@ -7,4 +21,15 @@ border-radius: 15px;
     background: #030229;
 border: 1px solid #605BFE;
 border-radius: 8px;
+}
+
+.questionSearch{
+    background: #FFFFFF;
+border: 1px solid #605BFE;
+border-radius: 8px;
+color: #C0C0C0;
+}
+
+.circleBorder{
+    border: 0.75px solid #605BFE;
 }
