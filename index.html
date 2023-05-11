@@ -8,8 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap">
-</head>
-<body>
+
+    <!-- slick -->
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+<body class="">
 <!-- Header section -->
 <header class="lg:px-[135px] px-5 flex justify-between items-center lg:mt-[50px] py-[20px] navbar-font bg-white lg:bg-none customShadow  md:shadow-none rounded-none">
     <div class="flex items-center gap-2">
@@ -80,7 +83,7 @@
     <div class="grid lg:grid-cols-2 items-center justify-items-center font-Raleway">
     <div class="relative">
         <aside class="lg:w-[477.99px] md:w-[477.99px] w-[330px] lg:h-[477.99px] md:h-[477.99px] h-[330px] rounded-full circleBorder flex justify-center items-center">
-            <aside class="lg:w-[351.76px] md:w-[351.76px] w-[250px] lg:h-[351.76px] md:h-[351.76px] h-[250px] rounded-full circleBorder flex justify-center items-center">
+            <aside class="lg:w-[351.76px] md:w-[351.76px] w-[230px] lg:h-[351.76px] md:h-[351.76px] h-[230px] rounded-full circleBorder flex justify-center items-center">
                 <aside class="lg:w-[200.43px] md:w-[200.43px] w-[150px] lg:h-[200.43px] md:h-[200.43px] h-[150px] rounded-full circleBorder flex justify-center items-center">
                     <aside>
                         <img src="./assets//Ellipse 4.png" alt="">
@@ -99,7 +102,7 @@
                 <img class="mt-[12px] w-[90px] lg:w-full md:w-full" src="./assets/456 GB I 1056 Items.png" alt="">
             </div>
 
-        <div class="absolute lg:right-[-298px] md:right-[-298px] right-[-175px] top-[80px]">
+        <div class="absolute lg:right-[-298px] md:right-[-298px] right-[-160px] top-[80px]">
             <img class="w-[70px] lg:w-[96.41px] md:w-[96.41px]" src="./assets/Ellipse 8.png" alt="">
         </div>
         <div class="absolute left-[80px] lg:left-[50px] md:left-[50px] lg:bottom-[-300px] md:bottom-[-300px] bottom-[-165px]">
@@ -118,8 +121,6 @@
             </div>
 
         </div>
-
-
     </div>
     <div class="">
         <h1 class="text-[#605BFE] font-[700] lg:text-[40px] text-[28px] mt-[50px]">Launch your own branded application very easily</h1>
@@ -420,55 +421,172 @@
 
 <!-- Customer Say -->
 <section class="mt-[120px]">
-    <div class="lg:px-[135px]">
+    <div class="lg:px-[135px] lg:h-[925px] h-[1025px] px-5 overflow-hidden">
         <div class="text-center">
             <p class="text-[16px] text-[#030229] leading-[24px] font-normal">Feedback</p>
         <h1 class="mt-[10px] text-[30px] text-[#605BFE] leading-[40px] font-semibold">What Our Customer Say</h1>
         </div>
-        <div class="flex justify-between items-center w-full lg:px-[295px] mt-[64px] px-2">
-<img class="lg:w-[74px] lg:h-[74px] w-[55px] h-[55px]" src="./assets/Group 286.png" alt="">
-<img class="lg:w-[74px] lg:h-[74px] w-[55px] h-[55px]" src="./assets/Group 287.png" alt="">
-<img class="w-[110px] h-[110px] lg:w-[247.49px] lg:h-[247.24px]" src="./assets/Group 285.png" alt="">
-<img class="lg:w-[74px] lg:h-[74px] w-[55px] h-[55px]" src="./assets/Group 288.png" alt="">
-<img class="lg:w-[74px] lg:h-[74px] w-[55px] h-[55px]" src="./assets/Group 289.png" alt="">
+        <!-- slider Image -->
+        <div class="w-[950px] h-[247px] mx-auto lg:px-[295px] mt-[64px]">
+            <div class="swiper-container w-[330px] h-full px-10 ml-5">
+                <div class="swiper-wrapper">
+    
+                <div class="swiper-slide flex justify-center items-center">
+                    <img class="transition-all ease-in-out slide-img w-[74px] h-[74px]" src="./assets/Group 286.png" alt="">
+                </div>
+    
+                <div class="swiper-slide w-full flex justify-center items-center">
+                    <img class="transition-all ease-in-out slide-img w-[74px] h-[74px]" src="./assets/Group 287.png" alt="">
+                </div>
+    
+                <div class="swiper-slide flex justify-center items-center">
+                    <img class="transition-all ease-in-out slide-img w-[74px] h-[74px]" src="./assets/Group 285.png" alt="">
+                </div>
+    
+                <div class="swiper-slide flex justify-center items-center">
+                    <img class="transition-all ease-in-out slide-img w-[74px] h-[74px]" src="./assets/Group 288.png" alt="">
+                </div>
+    
+                <div class="swiper-slide flex justify-center items-center">
+                    <img class="transition-all ease-in-out slide-img w-[74px] h-[74px]" src="./assets/Group 289.png" alt="">
+                </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="mt-[51px] text-center">
-            <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Tonima Islam</h1>
-            <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Dhaka, Bangladesh</p>
+        <!-- slider man name -->
+        <div class="swiper-container !overflow-hidden mt-[51px] text-center lg:w-1/5 mx-auto">
+            <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Sadia Islam</h1>
+                <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Naogaon, Bangladesh</p>
+            </div>
+
+            <div class="swiper-slide">
+                <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Riyan Islam</h1>
+                <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Dhaka, Bangladesh</p>
+            </div>
+
+            <div class="swiper-slide">
+                <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Xefer Islam</h1>
+                <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Naogaon, Bangladesh</p>
+            </div>
+
+            <div class="swiper-slide">
+                <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Noah Islam</h1>
+                <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Naogaon, Bangladesh</p>
+            </div>
+
+            <div class="swiper-slide">
+                <h1 class="text-[#605BFE] font-semibold text-[30px] leading-[40px]">Tonima Islam</h1>
+                <p class="text-[#575757] font-[500] text-[18px] leading-[27px] mt-[13px]">Naogaon, Bangladesh</p>
+            </div>
+            </div>
         </div>
 
-       
+       <!-- feedback card -->
         <div class="w-full flex flex-col justify-center items-center mt-[49px] relative">
             <div class="flex justify-center px-5">
             <img class="md:w-[490px] lg:w-full" src="./assets/Union.png" alt="">
             </div>
-            <div class="lg:w-10/12 md:w-11/12 flex justify-between items-center absolute lg:top-[80px] top-[60px] gap-5 px-2">
-                <div class="w-[50px] h-[50-px] bg-[#605BFE] flex justify-center items-center p-2 rounded-[4px]"> <img class="lg:w-[12px] lg:h-[19px] w-[9] h-[13]" src="./assets/path9429.png" alt=""> </div>
-            <div class="bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+            <div class="lg:w-10/12 md:w-11/12 w-[390px] flex justify-between items-center absolute lg:top-[80px] top-[60px] lg:gap-5 gap-2 px-2">
+                <!-- button left -->
+                <button
+                    class="prev-button w-[50px] rounded-sm flex justify-center items-center p-3 text-pink-600 bg-[#605BFE] hover:bg-[#5B93FF] hover:text-white"
+                    >
+                    <span class="sr-only">Previous Slide</span>
+                    <img class="lg:w-[12px] lg:h-[19px] w-[9] h-[13]" src="./assets/path9429.png" alt="">
+            </button>
+            <div class="swiper-container !overflow-hidden bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                <div class="swiper-wrapper">
                 
-                <div class="flex gap-5">
-                <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
-                    <img class="lg:w-[32px] w-[12px] lg:h-[65px] h-[16px]" src="./assets/Vector (9).png" alt="">
-                    <img class="lg:w-[32px] w-[12px] lg:h-[65px] h-[16px]" src="./assets/Vector (9).png" alt="">
-                </aside>
-                <aside class="mt-[64px]">
-                    <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                    <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                </aside>
+                <div class="swiper-slide bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                    <div class="flex gap-5">
+                        <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                        </aside>
+                        <aside class="mt-[64px]">
+                            <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                            <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </aside>
+                        </div>
+                </div>
+    
+                <div class="swiper-slide bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                    <div class="flex gap-5">
+                        <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                        </aside>
+                        <aside class="mt-[64px]">
+                            <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, words which don't look even slightly believable. Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                            <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </aside>
+                        </div>
+                </div>
+    
+                <div class="swiper-slide bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                    <div class="flex gap-5">
+                        <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                        </aside>
+                        <aside class="mt-[64px]">
+                            <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">Lorem Ipsum is not simply random text.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Contrary to popular belief</p>
+                            <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </aside>
+                        </div>
                 </div>
 
+                <div class="swiper-slide bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                    <div class="flex gap-5">
+                        <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                        </aside>
+                        <aside class="mt-[64px]">
+                            <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">simply random text.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Contrary to popular belief</p>
+                            <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </aside>
+                        </div>
+                </div>
+
+                <div class="swiper-slide bg-[#5B93FF] lg:w-[590px] lg:h-[262px] rounded-[25px]">
+                    <div class="flex gap-5">
+                        <aside class="flex lg:px-7 px-2 mt-[35px] gap-2">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                            <img class="lg:w-[10] w-[12px] lg:h-[25px] h-[16px]" src="./assets/Vector (9).png" alt="">
+                        </aside>
+                        <aside class="mt-[64px]">
+                            <p class="hidden md:block lg:block w-[370px] md:w-[390px] md:-mt-8 md:mb-5 text-[16px] lg:mt-5 leading-[24px] text-white font-custom font-light">Are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Contrary to popular belief</p>
+                            <p class="block md:hidden lg:hidden text-[15px] leading-[24px] text-white font-custom font-light text-justify mr-5 -mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        </aside>
+                        </div>
+                </div>
+
+                </div>
             </div>
-            <div class="w-[50px] h-[50-px] bg-[#605BFE] flex justify-center items-center p-2 rounded-[4px]"> <img class="lg:w-[12px] lg:h-[19px] w-[9] h-[13]" src="./assets/path9429 (1).png" alt=""> </div>
+            <!-- Button Right -->
+            <button
+                    class="next-button w-[50px] rounded-sm flex justify-center items-center p-3 text-pink-600 bg-[#605BFE] hover:bg-[#5B93FF] hover:text-white"
+                    >
+                    <span class="sr-only">Next Slide</span>
+                    <img class="lg:w-[12px] lg:h-[19px] w-[9] h-[13]" src="./assets/path9429 (1).png" alt="">
+                    
+            </button>
             </div>
         </div>
-       
+
     </div>
     </div>
 </section>
 
+
 <!-- Advance Tracker -->
-<section class="bg-[#605BFE] lg:mt-[320px] mt-[230px] font-Raleway">
+<section class="bg-[#605BFE] lg:mt-[200px] -mt-[100px] font-Raleway">
     <div class="lg:grid lg:grid-cols-2 lg:justify-items-center flex flex-col-reverse lg:px-[135px] px-5"> 
 
     <div class="lg:pt-[80px] pt-[30px]">
@@ -526,31 +644,191 @@
             <li class="lg:w-[200px] w-[150px] h-[50px] border rounded-[8px] flex justify-center items-center font-[500] text-[18px] leading-[27px] text-[#252525] list-none">Others</li>
         </aside>
         <aside class="grid col-span-6 space-y-10 mt-[45px]">
-            <div class="border-b pb-10">
-               <div class="flex justify-between items-center">
-                <h1 class="font-[500] text-[18px] leading-[27px] text-[#252525]">Where can I get technical help for online transactions?</h1>
-                <img src="./assets/Group 85.png" alt="">
-               </div>
-                <p class="lg:w-[956px] font-normal text-[16px] leading-[24px] text-[#575757] mt-[30px]">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            </div>
-            <div class="border-b flex pb-10">
-              <div class="flex justify-between items-center w-full">
-                <h1 class="font-[500] text-[18px] leading-[27px] text-[#252525]">How do I signup for the trail?</h1>
-                <img src="./assets/Group 86.png" alt="">
-              </div>
-            </div>
-            <div class="border-b flex pb-10">
-              <div class="w-full flex justify-between items-center">
-                <h1 class="font-[500] text-[18px] leading-[27px] text-[#252525]">Does the document need to be in specific file format?</h1>
-                <img src="./assets/Group 86.png" alt="">
-              </div>
-            </div>
-            <div class="border-b flex pb-10">
-                <div class="w-full flex justify-between items-center">
-                    <h1 class="font-[500] text-[18px] leading-[27px] text-[#252525]">How do I import my transactions?</h1>
-                <img src="./assets/Group 86.png" alt="">
-                </div>
-            </div>
+                <details
+                class="group pb-10 border-b [&_summary::-webkit-details-marker]:hidden" open >
+                  <summary
+                    class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+                  >
+                    <h2 class="font-[500] text-[18px] leading-[27px] text-[#252525]">
+                        Where can I get technical help for online transactions?
+                    </h2>
+              
+                    <span class="relative h-5 w-5 shrink-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-100 group-open:opacity-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+              
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-0 group-open:opacity-100"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+              
+                  <p class="mt-4 leading-[24px] text-[16px] font-[400] text-[#575757] lg:w-[930px]">
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+                </details>
+                <details
+                class="group pb-10 border-b [&_summary::-webkit-details-marker]:hidden" close >
+                  <summary
+                    class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+                  >
+                    <h2 class="font-[500] text-[18px] leading-[27px] text-[#252525]">
+                        How do I signup for the trail?
+                    </h2>
+              
+                    <span class="relative h-5 w-5 shrink-0">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-100 group-open:opacity-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+              
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-0 group-open:opacity-100"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+              
+                  <p class="mt-4 leading-[24px] text-[16px] font-[400] text-[#575757] lg:w-[930px]">
+                    When you sign up for Google Workspace, you start with a 14-day free trial subscription. Up to 10 users can explore all the features of Google Workspace.
+                  </p>
+                </details>
+                <details
+                class="group pb-10 border-b [&_summary::-webkit-details-marker]:hidden" close >
+                  <summary
+                    class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+                  >
+                    <h2 class="font-[500] text-[18px] leading-[27px] text-[#252525]">
+                        Does the document need to be in specific file format?
+                    </h2>
+              
+                    <span class="relative h-5 w-5 shrink-0">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-100 group-open:opacity-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+              
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-0 group-open:opacity-100"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+              
+                  <p class="mt-4 leading-[24px] text-[16px] font-[400] text-[#575757] lg:w-[930px]">
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+                </details>
+                <details
+                class="group pb-10 border-b [&_summary::-webkit-details-marker]:hidden" close >
+                  <summary
+                    class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+                  >
+                    <h2 class="font-[500] text-[18px] leading-[27px] text-[#252525]">
+                        How do I import my transactions?
+                    </h2>
+              
+                    <span class="relative h-5 w-5 shrink-0">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-100 group-open:opacity-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+              
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 h-[25px] w-[25px] opacity-0 group-open:opacity-100"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                  </summary>
+              
+                  <p class="mt-4 leading-[24px] text-[16px] font-[400] text-[#575757] lg:w-[930px]">
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+                </details>
+            
         </aside>
     </div>
 </section>
@@ -660,5 +938,38 @@
 </div>
 </section>
 </footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        initialSlide: 2, 
+        // autoplay: {
+        //     delay: 5000,
+        // },
+        breakpoints: {
+        640: {
+            centeredSlides: true,
+            slidesPerView: 1,
+        },
+        1024: {
+            centeredSlides: false,
+            slidesPerView: 1,
+        },
+        },
+        navigation: {
+        nextEl: '.next-button',
+        prevEl: '.prev-button',
+        },
+    })
+    })
+
+
+</script>
+
 </body>
 </html>
