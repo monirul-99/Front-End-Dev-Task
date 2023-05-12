@@ -128,12 +128,10 @@ li.navigation__item:hover {
 }
 
 .navigation--visible {
-    /* width: 100%;
-    position: fixed; */
     opacity: 1;
     height: 305px;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
     .page-header {
         display: flex;
    }
