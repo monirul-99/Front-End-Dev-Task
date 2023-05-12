@@ -48,3 +48,115 @@ color: #C0C0C0;
 .circleBorder{
     border: 0.75px solid #605BFE;
 }
+
+
+
+
+/* .checkBtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  @media (max-width: 858px){
+    .checkBtn{
+      display: block;
+    }
+    .nav{
+      position: fixed;
+      z-index: -1;
+      width: 100%;
+      background: white;
+      top: 80px;
+      text-align: center;
+      transition: all .7s;
+    }
+    .nav > p{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+   .nav > p > a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ .nav{
+      top: -390px;
+    }
+  } */
+
+
+  .page-header__toggle {
+    font-size: 2em;
+}
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    background: #FFFFFF;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    opacity: 0.5;
+    height: 0;
+    overflow: hidden;
+    transition: ease-in 0.3s;
+}
+
+li.navigation__item:hover {
+    background: #5752e7;
+    margin: 0px 90px;
+    color: whitesmoke;
+    border-radius: 8px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation__item {
+    padding: 16px 16px;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation--visible {
+    /* width: 100%;
+    position: fixed; */
+    opacity: 1;
+    height: 305px;
+}
+@media (min-width: 480px) {
+    .page-header {
+        display: flex;
+   }
+    .page-header__top {
+        margin-right: auto;
+   }
+    .page-header__top, .page-header__bottom {
+        display: block;
+   }
+    .page-header__toggle {
+        display: none;
+   }
+    .navigation {
+        display: block;
+        opacity: 1;
+        height: auto;
+   }
+    .navigation__item {
+        opacity: 0.8;
+        display: inline-block;
+   }
+    .navigation__item:hover {
+        cursor: pointer;
+        opacity: 1;
+   }
+}

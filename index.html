@@ -14,28 +14,40 @@
 
 <body class="">
 <!-- Header section -->
-<header class="lg:px-[135px] px-5 flex justify-between items-center lg:mt-[50px] py-[20px] navbar-font bg-white lg:bg-none customShadow  md:shadow-none rounded-none">
+<header class="lg:px-[135px] lg:mt-[50px] py-[20px] navbar-font bg-white lg:bg-none customShadow  md:shadow-none rounded-none">
+    <main class="flex justify-between items-center px-5">
     <div class="flex items-center gap-2">
         <img class="w-[40px] h-[49px]" src="./assets/Vector.png" alt="">
         <img class="w-[80px] h-[21px]" src="./assets/Perfect (1).png" alt="">
     </div>
     <div class="hidden md:hidden lg:block">
-    <ul class="flex items-center space-x-[29px] ">
-        <li class="text-[#605BFE] text-[18px]">Home</li>
-        <li class="text-[18px]">Product</li>
-        <li class="text-[18px]">Pricing</li>
-        <li class="text-[18px]">Feature</li>
-        <li class="flex items-center gap-1.5 text-[18px]">About <img src="./assets/Vector (2).png" alt=""></li>
-    </ul>
+    <div class="flex items-center space-x-[29px] ">
+        <p class="text-[#605BFE] text-[18px]">Home</p>
+        <p class="text-[18px]">Product</p>
+        <p class="text-[18px]">Pricing</p>
+        <p class="text-[18px]">Feature</p>
+        <p class="flex items-center gap-1.5 text-[18px]">About <img src="./assets/Vector (2).png" alt=""></p>
+    </div>
     </div>
     <div class="hidden md:block lg:block">
         <button class="border border-[#605BFE] text-[18px] text-[#605BFE] font-[500] w-[120px] h-[50px] rounded-[8px] mr-[30px]">Sign In</button>
         <button class="bg-[#605BFE] w-[120px] text-[18px] font-[500] h-[50px] rounded-[8px] text-white">Sign Up</button>
     </div>
 
-    <div class="block md:hidden lg:hidden">
-        <img class="w-[30px]" src="./assets/menu.png" alt="">
+    <div onclick="toggleMenu()" class="block md:hidden lg:hidden">
+        <img  class="w-[30px]" src="./assets/menu.png" alt="">
     </div>
+</main>
+
+    <main class="page-header__bottom block md:hidden lg:hidden">
+        <div id="navigation" class="navigation">
+          <li class="navigation__item">Home</li>
+          <li class="navigation__item">Product</li>
+          <li class="navigation__item">Pricing</li>
+          <li class="navigation__item">Feature</li>
+          <li class="navigation__item">About</li>
+        </div>
+      </main>
 </header>
 <!-- Cover Section -->
 <section class="flex justify-between lg:mt-[124px] mt-[50px] lg:pl-[135px] px-5">
@@ -940,6 +952,7 @@
 </footer>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/app.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
     new Swiper('.swiper-container', {

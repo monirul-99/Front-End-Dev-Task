@@ -25,3 +25,8 @@ $(document).ready(function () {
     ],
   });
 });
+
+function toggleMenu() {
+  let nav = document.getElementById("navigation");
+  nav.classList.toggle("navigation--visible");
+}
